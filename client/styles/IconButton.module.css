@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  min-width: 9rem;
+  max-height: 2.5rem;
+  border-radius: 3px;
+  box-shadow: 0 0 30px 3px #ccc;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.main:hover {
+  box-shadow: 0 0 30px 9px #ccc;
+}
+
+.ico {
+  width: 40%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ico img {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+.title {
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}

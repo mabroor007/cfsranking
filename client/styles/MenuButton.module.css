@@ -1,0 +1,11 @@
+.main {
+  background-color: var(--red);
+}
+
+.main:hover {
+  background-color: var(--darkred);
+}
+
+.main:focus {
+  background-color: var(--darkred);
+}

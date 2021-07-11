@@ -1,0 +1,19 @@
+.main {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.catagory {
+  width: 7rem;
+  height: 7rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px 2px #ddd;
+  border-radius: 3px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.catagory:hover {
+  box-shadow: 0 0 30px 5px #ccc;
+}
