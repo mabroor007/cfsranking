@@ -8,6 +8,10 @@ A car performance ranking and comparison application.
 - Nextjs
 - Css Modules
 
+## Link
+
+[link](https://60eb6077f3ff091bc43a6288--zen-benz-e20395.netlify.app/)
+
 ## Get Started Locally
 
 1.clone the project
