@@ -21,7 +21,7 @@ export const TopRatedFromSelection: React.FC<Props> = () => {
           characteristics. The Audi RS e-tron GT combines performance and
           progressiveness without compromise.
         </p>
-        <div style={{ display: "flex", marginTop: "1.8rem" }}>
+        <div className={styles.btns}>
           <IconButton title="share" iconPath="/share.svg" />
           <IconButton title="copy link" iconPath="/copy.svg" />
         </div>

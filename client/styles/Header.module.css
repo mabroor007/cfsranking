@@ -17,12 +17,31 @@
   margin-right: 2rem;
 }
 
+@media screen and (max-width: 999px) {
+  .nav {
+    display: none;
+  }
+  .menu {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu {
+    display: none;
+  }
+  .search {
+    margin-left: auto;
+  }
+}
+
 .nav a {
   font-weight: 500;
   font-size: 0.8rem;
   margin-right: 1rem;
   color: #444;
 }
+
 .nav a:hover {
   color: black;
 }

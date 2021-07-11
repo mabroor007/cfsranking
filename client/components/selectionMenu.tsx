@@ -22,10 +22,11 @@ const SelectBox: React.FC<SelectBoxProps> = ({ title, options }) => {
   return (
     <div>
       <div>{title}</div>
-      <select className={styles.select} name={title}>
-        <option selected value={"Please select " + title}>
-          {"Please select " + title}
-        </option>
+      <select
+        defaultValue={"Please select " + title}
+        className={styles.select}
+        name={title}
+      >
         {options &&
           options.map((item) => {
             return (

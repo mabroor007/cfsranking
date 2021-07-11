@@ -6,7 +6,7 @@ export const Content: React.FC<Props> = () => {
     <main className={styles.content}>
       <section className={styles.content_sect}>
         <h3>Now</h3>
-        <h2>Compare car performance like never before</h2>
+        <h2>Compare vehicle performance like never before</h2>
         <p>
           cfs-performance is the application which you can use to make a good
           decision about purchasing your vehicle. Using our comparison tool you

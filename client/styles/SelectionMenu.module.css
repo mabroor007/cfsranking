@@ -4,6 +4,7 @@
   box-shadow: 0 0 20px 2px #ddd;
   padding: 2rem 1rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -15,4 +16,13 @@
   box-shadow: 0 0 20px 2px #ddd;
   background-color: white;
   outline: none;
+}
+
+@media screen and (max-width: 950px) {
+  .main {
+    justify-content: center;
+  }
+  .select {
+    margin: 1rem;
+  }
 }

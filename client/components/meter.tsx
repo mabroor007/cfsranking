@@ -32,6 +32,15 @@ export const CfsMeter: React.FC<Props> = () => {
 
       <div className={styles.perf_tun}>
         <h1>Performance Tuning</h1>
+        <div>
+          <img src="/left.png" />
+          <img src="/right.png" />
+        </div>
+      </div>
+
+      <div className={styles.perf_graph}>
+        <h1>Performance Graph</h1>
+        <img src="/graph.png" />
       </div>
     </div>
   );

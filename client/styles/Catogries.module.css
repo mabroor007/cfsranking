@@ -17,3 +17,16 @@
 .catagory:hover {
   box-shadow: 0 0 30px 5px #ccc;
 }
+
+@media screen and (max-width: 733px) {
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .catagory {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -22,3 +22,35 @@
 .perf_tun > h1 {
   color: var(--red);
 }
+
+.perf_tun > div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.perf_tun > div > img {
+  max-height: 30rem;
+  max-width: 40%;
+  box-shadow: 0 0 20px 2px #ddd;
+}
+
+.perf_graph {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.perf_graph > h1 {
+  color: var(--red);
+}
+
+.perf_graph > img {
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 624px) {
+  .back_svg {
+    display: none;
+  }
+}
