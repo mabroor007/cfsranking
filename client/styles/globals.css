@@ -17,6 +17,16 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
+
 :root {
   --red: #d23a2f;
   --white: #ffffff;
@@ -47,6 +57,12 @@ a {
   color: white;
   transition: all 0.3s;
   cursor: pointer;
+}
+
+.gcust {
+  margin-top: 1rem;
+  width: 10rem;
+  text-align: center;
 }
 
 .btn-p:hover {

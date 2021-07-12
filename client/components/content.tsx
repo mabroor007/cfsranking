@@ -1,5 +1,7 @@
 import styles from "../styles/Content.module.css";
 
+import Link from "next/link";
+
 export interface Props {}
 export const Content: React.FC<Props> = () => {
   return (
@@ -13,7 +15,9 @@ export const Content: React.FC<Props> = () => {
           can compare performance of vehicle from various popular brands and
           decide which one is optimal for you
         </p>
-        <button className="btn btn-p">Get Started</button>
+        <Link href="/getstarted">
+          <a className="btn btn-p gcust">Get Started</a>
+        </Link>
       </section>
       <section className={styles.content_sect}>
         <img src="/maincar.png" />
