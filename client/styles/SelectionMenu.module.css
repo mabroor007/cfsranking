@@ -11,11 +11,12 @@
 .select {
   margin-top: 1rem;
   padding: 9px 15px;
-  border-radius: 3px;
+  border-radius: 1rem;
   border: none;
   box-shadow: 0 0 20px 2px #ddd;
   background-color: white;
   outline: none;
+  min-width: 150px;
 }
 
 @media screen and (max-width: 950px) {

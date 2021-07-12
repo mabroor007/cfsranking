@@ -1,4 +1,9 @@
 import styles from "../styles/Catogries.module.css";
+import { Bike } from "./bike";
+import { Boat } from "./boat";
+import { BullDozer } from "./bulldozer";
+import { Car } from "./car";
+import { Truck } from "./truck";
 
 export type Vehicle = "car" | "truck" | "boat" | "bulldozer" | "bike";
 
@@ -44,6 +49,7 @@ export const Catagories: React.FC<Props> = ({ onCatagoryClick, selected }) => {
         path="/bike.svg"
         onCatagoryClick={onCatagoryClick}
       />
+      <img style={{ marginLeft: "5rem" }} src="/logo.jpg" />
     </div>
   );
 };
@@ -58,7 +64,6 @@ export interface CatagoryProps {
 export const Catagory: React.FC<CatagoryProps> = ({
   selected,
   name,
-  path,
   onCatagoryClick,
 }) => {
   return (
@@ -67,7 +72,11 @@ export const Catagory: React.FC<CatagoryProps> = ({
       style={{ backgroundColor: selected ? "#d00000" : "white" }}
       className={styles.catagory}
     >
-      <img src={path} />
+      {name === "car" ? <Car selected={selected} /> : null}
+      {name === "bike" ? <Bike selected={selected} /> : null}
+      {name === "boat" ? <Boat selected={selected} /> : null}
+      {name === "bulldozer" ? <BullDozer selected={selected} /> : null}
+      {name === "truck" ? <Truck selected={selected} /> : null}
     </div>
   );
 };
