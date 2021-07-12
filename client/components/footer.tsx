@@ -79,7 +79,7 @@ export const Footer: React.FC<Props> = () => {
               >
                 Follow us
               </h1>
-              <div>
+              <div className={styles.ico_box}>
                 <img src="/facebook.svg" />
                 <img src="/instagram.svg" />
               </div>

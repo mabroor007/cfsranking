@@ -76,7 +76,6 @@
 .social {
   display: flex;
   height: 3rem;
-  align-items: center;
   margin-left: 1rem;
   margin-top: 2rem;
   flex-direction: column;
@@ -129,4 +128,11 @@
   .info > div > input {
     margin-bottom: 1rem;
   }
+}
+
+.ico_box {
+  margin-top: 1rem;
+}
+.ico_box img {
+  max-width: 30px;
 }
