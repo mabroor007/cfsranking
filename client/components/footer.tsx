@@ -21,7 +21,7 @@ export const Footer: React.FC<Props> = () => {
       </footer>
 
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <div className={"wrapper"}>
+        <div className={"wrapper " + styles.w90}>
           <div className={styles.info}>
             <div>
               <img src="/logo.jpg" />

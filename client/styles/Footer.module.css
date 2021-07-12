@@ -58,8 +58,14 @@
 
 .info {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
   margin-top: 2rem;
+}
+
+.w90 {
+  width: 90%;
+  margin-bottom: 3rem;
 }
 
 .info > div > input {
@@ -132,6 +138,7 @@
 
 .ico_box {
   margin-top: 1rem;
+  width: 80px;
 }
 .ico_box img {
   max-width: 30px;
