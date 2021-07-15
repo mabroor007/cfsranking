@@ -28,4 +28,4 @@ yarn start // to run
 
 # Screenshot
 
-<img src="https://github.com/mabroor007/cfsranking/blob/master/cfs.png" width="100%" height="auto" />
+<img src="https://github.com/mabroor007/cfsranking/blob/main/cfs.png" width="100%" height="auto" />
