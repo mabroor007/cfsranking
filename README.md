@@ -25,3 +25,7 @@ yarn build // for production build
 yarn dev // for developement env
 yarn start // to run
 ```
+
+# Screenshot
+
+<img src="https://github.com/mabroor007/cfsranking/blob/master/cfs.png" width="100%" height="auto" />
