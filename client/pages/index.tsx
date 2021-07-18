@@ -5,10 +5,19 @@ import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 import { SelectionMenu } from "../components/selectionMenu";
 import styles from "../styles/Home.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import CFSApi from "../api";
 
 export default function Home() {
   const [selected, setSelected] = useState<Vehicle>("car");
+
+  useEffect(() => {
+    CFSApi.getVehicleTypes()
+      .then((types) => {
+        console.log(types);
+      })
+      .catch((e) => console.log(e));
+  }, []);
 
   const onCatagoryClickHandler = (name: Vehicle) => {
     setSelected(name);
